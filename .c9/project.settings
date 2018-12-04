@@ -1,0 +1,40 @@
+{
+    "build": {
+        "@saveall": true
+    },
+    "instance": {
+        "@automaticShutdown": "30"
+    },
+    "language": {
+        "tern_defs": {
+            "json()": {
+                "browser": {
+                    "enabled": true
+                },
+                "ecma5": {
+                    "enabled": true
+                },
+                "jQuery": {
+                    "enabled": true
+                }
+            }
+        }
+    },
+    "run": {
+        "configs": {
+            "@inited": "true",
+            "json()": {
+                "Post App": {
+                    "command": "rails s -b 0.0.0.0",
+                    "cwd": "/",
+                    "name": "Post App",
+                    "runner": "Shell command",
+                    "toolbar": true
+                }
+            }
+        }
+    },
+    "welcome": {
+        "@first": true
+    }
+}

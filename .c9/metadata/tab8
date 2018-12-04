@@ -1,0 +1,1 @@
+{"filter":false,"title":"Post App - Stopped","tooltip":"Post App - Stopped","undoManager":{"mark":-1,"position":-1,"stack":[]},"output":{"id":"output620490","width":0,"height":0,"scrollTop":-1,"config":{"command":"rails s -b 0.0.0.0","cwd":"/","name":"Post App","runner":"Shell command","toolbar":true}},"timestamp":1543521620976,"hash":"da39a3ee5e6b4b0d3255bfef95601890afd80709"}
