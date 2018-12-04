@@ -63,6 +63,5 @@ Rails.application.configure do
   # routes, locales, etc. This feature depends on the listen gem.
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
 
-  ENV["DARK_SKY_API_KEY"] = "3588d914229435cbab598b1e055d4fe3"
 
 end
